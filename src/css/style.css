@@ -71,6 +71,11 @@ body::before{
 .lista-de-personagens .personagem img {
 	width: 100%;
 	height: 100%;
+    transition: transform 0.2s ease;
+}
+
+.lista-de-personagens .personagem img:hover {
+    transform: scale(1.1);
 }
 
 .lista-de-personagens .personagem.selecionado {
